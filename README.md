@@ -27,6 +27,17 @@
 
     Este comando irá baixar as dependências necessárias, construir as imagens para o frontend e backend, e iniciar os serviços definidos no arquivo `docker-compose.yml`.
 
+3.  **Acessar a Aplicação:**
+
+    Após os contêineres estarem em execução, abra o seu navegador de preferência e acesse:
+
+    [`http://localhost`](http://localhost)
+
+    Você deverá ver a tela inicial da aplicação.
+
+    <!-- Adicione aqui o caminho ou URL da imagem da tela inicial -->
+    <!-- Exemplo: ![Tela Inicial](path/to/your/image.png) -->
+
 ## Funcionalidades
 
 ### Frontend
