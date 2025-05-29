@@ -1,0 +1,6 @@
+[submodule "FrontendElog"]
+	path = FrontendElog
+	url = https://github.com/CaioTito/FrontendElog.git
+[submodule "BackEndElog"]
+	path = BackEndElog
+	url = https://github.com/CaioTito/BackEndElog.git
