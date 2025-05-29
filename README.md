@@ -4,7 +4,7 @@
 
 ### Pré-requisitos
 
-- Git
+- Git: [Faça o download aqui](https://git-scm.com/downloads)
 - Docker Desktop: [Faça o download aqui](https://www.docker.com/products/docker-desktop/)
 
 ### Passos
