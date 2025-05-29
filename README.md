@@ -17,8 +17,6 @@
     git clone --recurse-submodules https://github.com/CaioTito/DesafioBigCore.git
     ```
 
-    *Substitua `seu-usuario` e `seu-repositorio-principal` pelos seus respectivos nomes de usuário e repositório no GitHub.*
-
 2.  **Iniciar os Contêineres Docker:**
 
     Navegue até a pasta raiz do projeto clonado e execute o comando abaixo para construir as imagens e iniciar os contêineres:
