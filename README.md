@@ -35,8 +35,8 @@
 
     Você deverá ver a tela inicial da aplicação.
 
-    <!-- Adicione aqui o caminho ou URL da imagem da tela inicial -->
-    <!-- Exemplo: ![Tela Inicial](path/to/your/image.png) -->
+    ![image](https://github.com/user-attachments/assets/8cdd5f2b-c2f2-461c-b9ef-7efc4568896e)
+
 
 ## Funcionalidades
 
