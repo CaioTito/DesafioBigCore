@@ -65,7 +65,12 @@ Este projeto foi desenvolvido como parte do desafio técnico da Big Core, com o 
 
 2.  **Iniciar os Contêineres Docker:**
 
-    Navegue até a pasta raiz do projeto clonado e execute o comando abaixo para construir as imagens e iniciar os contêineres:
+    Navegue até a pasta raiz do projeto clonado:
+    
+     ```bash
+    cd DesafioBigCore
+    ```
+    E execute o comando abaixo para construir as imagens e iniciar os contêineres:
 
     ```bash
     docker-compose up --build
@@ -73,7 +78,7 @@ Este projeto foi desenvolvido como parte do desafio técnico da Big Core, com o 
 
     Este comando irá baixar as dependências necessárias, construir as imagens para o frontend e backend, e iniciar os serviços definidos no arquivo `docker-compose.yml`.
 
-3.  **Acessar a Aplicação:**
+4.  **Acessar a Aplicação:**
 
     Após os contêineres estarem em execução, abra o seu navegador de preferência e acesse:
 
