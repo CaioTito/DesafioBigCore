@@ -1,9 +1,55 @@
-# DesafioBigCore
+# Desafio Técnico FullStack - Big Core
+
+![Badge](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+
+## Índice
+
+- [Descrição](#descrição)
+- [Demonstração](#demonstração)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Executar o Projeto](#como-executar-o-projeto)
+- [Uso](#uso)
+- [Funcionalidades](#funcionalidades)
+- [Licença](#licença)
+
+## Descrição
+
+Este projeto foi desenvolvido como parte do desafio técnico da Big Core, com o objetivo de implementar uma arquitetura BFF utilizando .NET 8 no backend e Vue 3 com Vuetify no frontend.
+
+## Demonstração
+
+![Demonstração da Aplicação](https://github.com/user-attachments/assets/8cdd5f2b-c2f2-461c-b9ef-7efc4568896e)
+
+## Tecnologias Utilizadas
+
+**Frontend:**
+
+- Vue 3
+- Vite
+- Vuetify
+- Axios
+- TypeScript
+
+**Backend:**
+
+- .NET 9
+- ASP.NET Core
+- HttpClientFactory
+- FluentValidation
+- Polly
+- xUnit
+
+**Outros:**
+
+- Docker
+- Docker Compose
 
 ## Como Executar o Projeto
 
 ### Pré-requisitos
 
+- Node.js >= 18
+- .NET 9 SDK
 - Git: [Faça o download aqui](https://git-scm.com/downloads)
 - Docker Desktop: [Faça o download aqui](https://www.docker.com/products/docker-desktop/)
 
@@ -37,6 +83,29 @@
 
     ![image](https://github.com/user-attachments/assets/8cdd5f2b-c2f2-461c-b9ef-7efc4568896e)
 
+## Uso
+
+Após iniciar a aplicação, acesse `http://localhost:3000`.
+
+Na tela principal, você encontrará:
+
+- **Botão de Filtro**:
+  - Abre um modal onde é possível aplicar os seguintes filtros:
+    - **StartDate** e **EndDate** (obrigatórios)
+    - **LicensePlate** (lista de placas)
+    - **IdTms** (lista de IDs do sistema do cliente)
+    - **DivisionId** (seleção múltipla entre divisões fixas: Citrosuco, GLP, Amônia, Máquinas, Ácido, Treinamento)
+  - Esses filtros são enviados ao backend como `query parameters`.
+
+- **Botão de Configuração**:
+  - Permite escolher:
+    - Quais colunas da tabela serão exibidas.
+    - A ordem em que elas aparecem.
+  - As preferências são armazenadas via `localStorage`, mantendo as configurações mesmo após recarregar ou fechar o navegador.
+
+- **Tabela Paginada**:
+  - Exibe os dados retornados do backend.
+  - A quantidade de itens por página também pode ser personalizada e é salva localmente.
 
 ## Funcionalidades
 
@@ -59,3 +128,9 @@ O backend foi desenvolvido seguindo as melhores práticas e padrões de arquitet
 -   **Polly:** Utilização da biblioteca Polly para implementar políticas de resiliência, como retentativas (retry) em caso de falhas temporárias.
 -   **DTOs (Data Transfer Objects):** Uso de DTOs para transferir dados entre as camadas da aplicação de forma eficiente e desacoplada.
 -   **Testes Unitários:** Cobertura de testes unitários para garantir a qualidade e o correto funcionamento das lógicas de negócio.
+
+ 
+## Licença
+
+Este projeto está licenciado sob os termos da licença MIT.  
+Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
